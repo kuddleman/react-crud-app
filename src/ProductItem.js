@@ -24,7 +24,7 @@ class ProductItem extends Component {
       <div className="App">
         <span>{ name }</span>
         { ` | ` }
-        <span>{ price }</span>
+        <span>${ price }</span>
         { ` | ` }
         <button onClick={ this.onDelete }>Delete</button>
       </div> 
